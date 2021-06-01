@@ -20,4 +20,9 @@ class MainActivity : AppCompatActivity() {
 
         }
     }
+
+    override fun onResume() {
+        super.onResume()
+        Log.d("메인화면","onResume 실행됨")
+    }
 }
